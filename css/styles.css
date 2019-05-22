@@ -1,0 +1,361 @@
+/* Внешний вид  */
+body {
+	margin:0; 
+	/*! padding:0 20px; */
+	font-family:verdana;
+	font-size:16px;
+	
+	}
+
+.pixel:hover
+{
+width:100%;
+box-shadow: 100px;
+transform:scale(1.1);
+	
+}
+.pixel2:hover{
+width:30%;
+box-shadow: 70px;
+transform:scale(1.1);
+}
+.pixel2{
+	width: 29%;
+	padding:0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.pixel3{
+	width: 100%;
+	padding:0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.pixel3:hover{
+width:100%;
+box-shadow: 100px;
+transform:scale(1.1);
+}
+.pixel4{
+	width: 45%;
+	padding:0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.pixel4:hover{
+width:50%;
+box-shadow: 100px;
+transform:scale(1.1);
+}
+.menu
+{
+	box-sizing: border-box;
+		display: flex;
+/*! float: none; */
+	line-height: 30px;
+	position: absolute;
+	z-index:50;
+	list-style:none;
+	visibility: hidden;
+	top: 60px;
+	background: #fff;
+	padding: 0;
+/*! width: 180px; */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container {
+	/*! max-width: 960px; */
+	/*! width: 100%; 
+    /*! margin: 0 auto; 
+	/*! padding:1%; */
+	border: 1px solid #fafaff;
+	background-image: url(../img/devushka_sportsmen.jpg); 
+	 background-attachment:fixed; 
+	 background-position:center; 
+	background-position: -270px 20px;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+}
+.header {
+    width: 100%;
+    /*! border-radius: 20px; */
+    /*! border: 1px solid #000000; */
+	background-color: #fafaff;  
+	background-image: url(img/logo2.png);  background-position: 70px 15px; background-repeat: no-repeat;
+	background-size: 3%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    box-shadow: 1px 1px 30px #0006;
+	
+}
+
+.logo {
+	top:30px;
+	left:30%;
+	background-image: url(img/logo2.png);
+	background-size: 2%;
+	background-attachment:cover;
+	width: 100%;
+	height: 40px;
+	background-repeat: no-repeat;
+  /*! align-self: flex-start; */
+  /*! margin-right: 100px !important; */
+	position: absolute;
+	display: flex;
+}
+
+.header .navbar {
+    list-style:none;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+	
+}
+
+.header .navbar li {
+	position:relative;
+    display:inline-block;
+    text-align:center;
+    margin:10px 0px;
+    padding:5px;
+    /*! width:90px; */
+    /*! margin-top: 10px; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*! position: absolute; */
+}
+.header .navbar a {
+text-decoration:none;
+	/*! max-width: 960px; */
+	/*! width: 100%; */
+	padding: 10px 15px;
+	display: block;
+	border-radius: 20px;
+	transition: 0.1s;
+	width: 100%;
+box-sizing: border-box;
+}
+
+.header .navbar .menu a{
+display:block;
+position:relative;
+z-index:50;
+text-align:center;
+margin:0;
+/*! width: 100%; */
+line-height: 30px;
+}
+.pixel{
+	width: 100%;
+	padding:0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.content {
+	
+	width: 100%;
+	padding:0;
+	margin: 0;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content .nav {
+	box-sizing:border-box;
+	width: 18%;
+    border-radius: 10px;
+    margin:1% 1% 0 0;
+    padding:5px;
+	background-color: #fff;
+    border: 1px solid #000000;
+	float:left;
+}
+.content .nav .nav_left {
+	margin: 1%;
+	padding:0px;
+}
+.content .nav .nav_left li{
+	list-style-type:none;
+	}
+.content .nav .nav_left a{
+	text-decoration:none;
+}
+
+.content .main {
+	box-sizing:border-box;
+	width: 60%;
+	border-radius: 10px;
+    margin: 1% 0;
+    padding: 1.5em;
+    border: 1px solid #0000001a;
+    background-color: #fff;
+    float: left;
+	/*! opacity: 0.7; */ /* Значение прозрачности */
+    
+	
+	max-width: 960px;
+	width: 100%;
+	margin: 70px 0;
+	box-shadow: 1px 1px 30px #0604041a;
+}
+.content .widgets {
+	box-sizing:border-box;
+	width: 20%;
+	background-color: #fff;
+    border-radius: 10px;
+    margin: 1% 0 0 1%;
+    padding: 1%; 
+    border: 1px solid #000000;
+	float:right;
+}
+.widget {
+	width: 100%;
+    border-radius: 10px;
+    border: 1px solid #000000;
+	margin: 0.7em 0;
+	padding:0.5em 0;
+	font-size:0.7em;
+	text-align:center;
+	}
+.content .footer{
+	border-top: 1px solid #0006;
+	box-sizing:border-box;
+	width: 100%;
+	/*! border-radius: 10px; */
+    /*! margin: 1% 0 0; */
+	text-align:center;
+    padding: 0.3em;
+    background-color: #fff;
+	clear:both;
+	/*! opacity: 0.7; */
+	box-shadow: 0px 1px 60px #00000080;
+	}
+h2 {
+	font-size:2em;
+    border-bottom: 2px solid #828678;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+h3 {
+    font-size:1.4em;
+	font-weight: normal;
+    padding-bottom: 5px;
+    margin-top: 60px;
+    opacity: 0.9;
+}	
+ p, li {
+	font-size:15px;
+    line-height: 1.5em;
+    /*! margin-bottom: 1em; */
+    color: #000000;
+	opacity: 0.7;
+	padding: 0 20px;
+}
+.tablica {
+	overflow-x:scroll
+}
+	
+.TeamAthletes {
+float: left;
+border-collapse: collapse;
+margin: 0 0 20px 0;
+}
+
+.TeamAthletes tr {
+border-top: solid 1px #ffffff;
+}
+
+.TeamAthletes td {
+text-align: center;
+padding: 9px 10px 10px 10px;
+}
+
+.TeamAthletes tr td:first-of-type {
+text-align: left;
+}
+
+.TeamAthletes tr:first-of-type td:first-of-type {
+text-align: center;
+}
+
+.TeamAthletes tr:nth-of-type(odd) {
+background-color: #f6f6f6;
+}
+
+.TeamAthletes tr:first-of-type {
+border-top: solid 1px #48D1CC;
+}
+
+.TeamAthletes tr:first-of-type, .TeamAthletes tr:hover {
+background-color: #64efea;
+}
+
+.TeamAthletes tr td.TeamAthletesTr {
+background-color: #48D1CC;
+color: #000000;
+}
+
+.TeamAthletes tr td.TeamAthletesTr {
+background-color: #48D1CC;
+color: #000000;
+}
+.OneTextD{
+	float left;
+	clear: left;
+
+}
+	
+a {color:#000;}
+a:hover {
+	color:#fff;
+	/*! font-weight:600; */
+	background: #0065c6;
+	/*! padding: 10px 15px; */
+}
+li:hover > .menu {
+visibility: visible;}
+
+/*Для экранов от 760px до 960px */
+@media screen and (min-width: 760px) and (max-width:900px) {
+
+}
+
+/*Для  экранов 540px до  760*/
+@media screen and (min-width: 540px) and (max-width:759px) {
+
+}
+
+/*Для  экранов 400px до  540*/
+@media screen and (min-width: 400px) and (max-width:539px) {
+
+
+}
+
+/*Для  экранов  до  400px*/
+@media screen and (max-width:399px) {
+
+}
